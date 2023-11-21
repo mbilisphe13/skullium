@@ -13,6 +13,7 @@ Skullium/Core provides essential functionalities for building Inertia React appl
 
 ```bash
 npm install skullium-core
+```
 
 ### Usage
 Skullium/Core provides core functionalities and utilities. Refer to the documentation for detailed usage instructions.

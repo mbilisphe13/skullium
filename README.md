@@ -24,7 +24,54 @@ npm install @skullium/core
 ```
 
 ### Usage
-Skullium/Core provides core functionalities and utilities. Refer to the documentation for detailed usage instructions.
+@skullium/core provides core functionalities and utilities.
+
+### Exported Types and Classes
+
+#### `express`, `RequestHandler`, `Application`, `Request`, `Response`, `NextFunction`
+
+Types imported from the 'express' package, enabling robust handling of HTTP requests and responses.
+
+#### `typeorm`, `BaseEntity`
+
+Types imported from the 'typeorm' package, facilitating interactions with the database and defining base entity structures.
+
+#### `Controller`
+
+Class encapsulating route and middleware management, enhancing modularity and organization in applications.
+
+#### `Model`
+
+Base class for models, providing foundational attributes and methods for data models.
+
+#### `EmailMessage`, `SmsMessage`
+
+Classes for handling email and SMS messages, facilitating convenient message composition and sending.
+
+#### `AuthModel`
+
+Extended model for user authentication, providing functionalities related to user authentication and authorization.
+
+#### `SkullError`, `ModelNotFound`, `NotFound`, `Unauthenticated`, `Unauthorized`
+
+Error classes representing various scenarios, aiding in standardized error handling and response generation.
+
+#### `Validate`
+
+Decorator function for validating schemas, enabling easy integration of schema validation in methods and classes.
+
+#### `ShorturlService`
+
+Service for shortening URLs, providing functionalities to generate and resolve short URLs.
+
+#### `session`, `database`
+
+Functions and constants related to sessions and database access, easing session handling and database interactions.
+
+#### `errorHandler`, `user`, `bootRoutes`
+
+Functions for error handling, user authentication, and bootstrapping routes, enhancing application stability and security.
+
 
 ## @skullium/inertia
 [![Version](https://img.shields.io/npm/v/@skullium/inertia.svg)](https://www.npmjs.com/package/@skullium/inertia)

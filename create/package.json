@@ -1,0 +1,27 @@
+{
+  "name": "@skullium/create",
+  "version": "1.0.0",
+  "description": "Skull bootsrapping CLI",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "nodemon index.ts"
+  },
+  "dependencies": {
+    "console-log-color": "^0.0.5",
+    "fs-extra": "^11.1.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.9.2",
+    "@types/prompts": "^2.4.8",
+    "tsup": "^8.0.0",
+    "typescript": "^5.2.2"
+  },
+  "bin": "bin/cli.js",
+  "files": [
+    "bin",
+    "templates"
+  ]
+}

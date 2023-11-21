@@ -1,0 +1,4 @@
+*.tgz
+bin
+/dist
+node_modules

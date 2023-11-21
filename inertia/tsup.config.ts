@@ -15,6 +15,6 @@ export const tsup: Options = {
   outDir: 'dist',
   entry: ['index.ts'],
   dts: {
-    footer: "declare module '@skull/inertia';"
+    footer: "declare module '@skullium/inertia';"
   },
 };

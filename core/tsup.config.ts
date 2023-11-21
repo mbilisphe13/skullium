@@ -12,6 +12,6 @@ export const tsup: Options = {
   outDir: 'dist',
   entry: ['src/index.ts'],
   dts: {
-    footer: "declare module '@skull/core';"
+    footer: "declare module '@skullium/core';"
   },
 };

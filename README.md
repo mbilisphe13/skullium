@@ -15,7 +15,7 @@ This will create a startapp project of Inertia React application with Express ba
 [![Version](https://img.shields.io/npm/v/@skullium/core.svg)](https://www.npmjs.com/package/@skullium/core)
 [![License](https://img.shields.io/npm/l/@skullium/core.svg)](https://github.com/@skullium/core/blob/main/LICENSE)
 
-Skullium/Core provides essential functionalities for building Inertia React applications with Express backends.
+@skullium/core provides essential functionalities for building Inertia React applications with Express backends.
 
 ### Installation
 

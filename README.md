@@ -27,6 +27,7 @@ Skullium/Inertia extends Skullium/Core to add Inertia-specific features for Reac
 Installation
 ```bash
 npm install skullium-inertia
+```
 
 ### Usage
 Skullium/Inertia provides functionalities tailored for Inertia React applications. Refer to the documentation for detailed usage instructions.
@@ -40,12 +41,14 @@ Skullium/Create is a CLI command package that creates Inertia React applications
 ###Installation
 ```bash
 npm install -g skullium-create
+```
 
 ###Usage
 To create a new project:
 
 ```bash
 npm @skullium/create
+```
 
 This will bootstrap an Inertia React application with Express backend, basic authentication, and front-end design from Laravel Breeze.
 
@@ -53,3 +56,4 @@ Make sure Node.js and npm are installed to use the skullium-create CLI.
 
 ```rust
 For more detailed instructions, check the Skullium documentation coming soon.
+```

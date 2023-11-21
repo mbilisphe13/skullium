@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "npx nodemon -r tsconfig-paths/register src/app/index.ts -w src/app",
+    "dev": "nodemon -r tsconfig-paths/register src/app/index.ts -w src/app",
     "start": "ts-node  -r tsconfig-paths/register src/app/index.ts",
     "build": "vite build",
     "generate-secret": "node -e \"console.log(require('crypto').randomBytes(32).toString('hex'))\""
@@ -9,6 +9,7 @@
     "@types/express": "^4.17.21",
     "@types/react-dom": "^18.2.15",
     "express": "^4.18.2",
+    "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
@@ -16,7 +17,7 @@
     "@headlessui/react": "^1.7.17",
     "@inertiajs/react": "^1.0.14",
     "@skullium/core": "^1.0.0",
-    "@skullium/inertia": "^1.1.0",
+    "@skullium/inertia": "^1.1.1",
     "@tailwindcss/forms": "^0.5.6",
     "@vitejs/plugin-react": "^4.2.0",
     "autoprefixer": "^10.4.16",
@@ -24,6 +25,7 @@
     "classnames": "^2.3.2",
     "dotenv": "^16.3.1",
     "hbs": "^4.2.0",
+    "nodemailer": "^6.9.7",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

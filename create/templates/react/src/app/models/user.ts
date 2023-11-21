@@ -1,5 +1,5 @@
 import {AfterLoad, Column, Entity} from "typeorm"
-import {AuthModel} from "@skull/core"
+import {AuthModel} from "@skullium/core"
 
 
 @Entity()

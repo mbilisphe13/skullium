@@ -124,7 +124,13 @@ const injectStatic = async (app: Express, middleware: RequestHandler) => {
     app.get("/*", async (req, res, next) => {
         return (isStaticFilePath(req.path))
             ? next()
-            : next(new Error("The requested resource was not found."))
+            : (res.inertia as any)
+            ? res.render('error', {
+                message: 'The requested page was not found.',
+                status: 404,
+                name: 'Not Found'
+            })
+            : res.status(500).json({error: 'The requested resource was not found.'});
     })
 }
 

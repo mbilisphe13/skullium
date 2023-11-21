@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Skull bootsrapping CLI",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbilisphe13/skullium.git"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "nodemon index.ts"

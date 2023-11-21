@@ -1,5 +1,5 @@
 import {Request, Response} from "express";
-import {auth, Controller, role} from "@skull/core";
+import {auth, Controller, role} from "@skullium/core";
 
 export default class extends Controller {
     middlewares = [auth(), role('staff')]

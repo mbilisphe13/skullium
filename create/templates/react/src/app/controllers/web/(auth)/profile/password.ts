@@ -1,7 +1,7 @@
 import {Request, Response} from "express";
-import {Controller} from "@skull/core";
-import {auth} from "@skull/core";
-import {Validate} from "@skull/core";
+import {Controller} from "@skullium/core";
+import {auth} from "@skullium/core";
+import {Validate} from "@skullium/core";
 
 const schema = {
     currentPassword: 'required',

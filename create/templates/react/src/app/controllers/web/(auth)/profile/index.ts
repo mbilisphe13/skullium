@@ -1,8 +1,8 @@
 import {Request, Response} from "express";
-import {Controller} from "@skull/core";
+import {Controller} from "@skullium/core";
 import {User} from "#/models/user";
-import {Validate} from "@skull/core";
-import {auth} from "@skull/core";
+import {Validate} from "@skullium/core";
+import {auth} from "@skullium/core";
 
 const schema = {
     phone: 'required|digits:10',

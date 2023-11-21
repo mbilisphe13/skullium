@@ -1,5 +1,5 @@
 import {Request, Response} from "express";
-import {Controller, guest, Validate} from "@skull/core";
+import {Controller, guest, Validate} from "@skullium/core";
 import {User} from "#/models/user";
 
 const schema = {

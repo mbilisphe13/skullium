@@ -1,6 +1,6 @@
 import {Request, Response} from "express";
-import {Controller} from "@skull/core";
-import {verified} from "@skull/core";
+import {Controller} from "@skullium/core";
+import {verified} from "@skullium/core";
 
 export default class extends Controller {
 

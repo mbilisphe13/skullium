@@ -1,7 +1,7 @@
 import {Request, Response} from "express";
-import {Controller} from "@skull/core";
-import {guest, signed} from "@skull/core";
-import {Validate} from "@skull/core";
+import {Controller} from "@skullium/core";
+import {guest, signed} from "@skullium/core";
+import {Validate} from "@skullium/core";
 import {User} from "#/models/user";
 
 const schema = {
